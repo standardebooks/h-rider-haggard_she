@@ -1,2 +1,48 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+p.inscription{
+    font-style: italic;
+    margin-top: 1em;
+    text-align: center;
+    text-indent: 0;
+}
+
+figure.full-page{
+    margin: 0;
+    max-height: 100%;
+    page-break-before: always;
+    page-break-after: always;
+    page-break-inside: avoid;
+    text-align: center;
+}
+
+figure{
+    margin: 1em auto;
+    text-align: center;
+}
+
+figure img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+figure + p{
+    text-indent: 0;
+}
+
+figcaption{
+    font-size: .75em;
+    font-style: italic;
+}
+
+blockquote.names{
+    text-transform: lowercase;
+}
+blockquote.transcription{
+    text-style: italic;
+}
+blockquote.transcription > i{
+    text-style: normal;
+}
