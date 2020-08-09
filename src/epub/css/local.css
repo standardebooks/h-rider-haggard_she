@@ -1,81 +1,195 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
-p.inscription{
-    font-style: italic;
-    margin-top: 1em;
+@font-face{
+	font-family: "Standard Blackletter";
+	font-weight: 700;
+	src: url("../fonts/StandardBlackletter.otf") format("opentype");
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+abbr.era{
+	font-variant: all-small-caps;
+}
+
+[epub|type~="dedication"] p{
     text-align: center;
     text-indent: 0;
 }
 
-figure.full-page{
-    margin: 0;
-    max-height: 100%;
-    page-break-before: always;
-    page-break-after: always;
-    page-break-inside: avoid;
-    text-align: center;
+.blackletter > p{
+	font-family: "Standard Blackletter", serif;
+	font-variant: normal;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: .95em;
 }
 
-figure{
-    margin: 1em auto;
-    text-align: center;
+.blackletter > p:first-of-type::first-letter{
+	float: left;
+	font-size: 2.4em;
+	line-height: .7em;
 }
 
+/* elevated letters shouldn't be raised as much as superscripts */
+.blackletter sup{
+    vertical-align: 20%;
+}
+
+.capgreek{
+    word-break: break-all;
+    text-align: justify;
+}
+
+blockquote[xml|lang="gr"] > p:nth-child(3){
+    text-indent: 5em;
+}
+
+blockquote.names p{
+    text-indent: 1em;
+	text-transform: lowercase;
+}
+
+/* location-specific CSS */
+#chapter-3 blockquote > header{
+    font-style: italic;
+    margin-bottom: .5em;
+}
+
+#image-2.full-page{
+	margin: 0;
+	max-width: 95%;
+	break-before: page;
+	break-after: page;
+	break-inside: avoid-page;
+	text-align: center;
+}
+/* end location-specific */
+
+/* dedication */
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+/* dedication */
+
+/* figures */
 figure img{
-    display: block;
-    margin: auto;
-    max-width: 100%;
+	display: block;
+	margin: auto;
+	max-width: 100%;
 }
 
 figure + p{
-    text-indent: 0;
+	text-indent: 0;
 }
 
 figcaption{
-    font-size: .75em;
-    font-style: italic;
+	font-size: .75em;
+	font-style: italic;
+	margin: 1em;
 }
 
-blockquote.names{
-    text-transform: lowercase;
-}
-blockquote.transcription{
-    text-style: italic;
-}
-blockquote.transcription > i{
-    text-style: normal;
+figcaption p{
+    text-transform: uppercase;
 }
 
-[epub|type~="z3998:poem"] p{
-text-align: left;
-text-indent: 0;
+figcaption table{
+    margin: 0 auto;
 }
 
-[epub|type~="z3998:poem"] p > span{
-display: block;
-text-indent: -1em;
-padding-left: 1em;
+figure.full-page{
+	margin: 0;
+	max-height: 100%;
+	break-before: page;
+	break-after: page;
+	break-inside: avoid-page;
+	text-align: center;
+}
+/* end figures */
+
+/* letters */
+[epub|type~="z3998:letter"] header{
+	text-align: right;
 }
 
-[epub|type~="z3998:poem"] p > span + br{
-display: none;
+footer{
+	margin-top: 1em;
+	text-align: right;
 }
 
-[epub|type~="z3998:poem"] p + p{
-margin-top: 1em;
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] + p{
-text-indent: 0;
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:salutation"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:postscript"]{
+	margin-top: 1em;
+	text-indent: 0;
+	text-align: left;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+/* end letters */
+
+/* verse */
+[epub|type~="z3998:verse"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] + p{
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
 }
 
 p span.i1{
-text-indent: -1em;
-padding-left: 2em;
+	text-indent: -1em;
+	padding-left: 2em;
 }
+/* end verse */
 
-p span.i2{
-text-indent: -1em;
-padding-left: 3em;
+/* temporary for proofreading */
+blockquote{
+    font-size: 93%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
