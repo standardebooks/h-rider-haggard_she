@@ -5,7 +5,7 @@
 @font-face{
 	font-family: "Standard Blackletter";
 	font-weight: 700;
-	src: url("../fonts/StandardBlackletter.otf") format("opentype");
+	src: url("../fonts/standard-blackletter.otf") format("opentype");
 }
 
 span[epub|type~="subtitle"]{
@@ -15,11 +15,6 @@ span[epub|type~="subtitle"]{
 
 abbr.era{
 	font-variant: all-small-caps;
-}
-
-[epub|type~="dedication"] p{
-    text-align: center;
-    text-indent: 0;
 }
 
 .blackletter > p{
@@ -38,27 +33,27 @@ abbr.era{
 
 /* elevated letters shouldn't be raised as much as superscripts */
 .blackletter sup{
-    vertical-align: 20%;
+	vertical-align: 20%;
 }
 
 .capgreek{
-    word-break: break-all;
-    text-align: justify;
+	word-break: break-all;
+	text-align: justify;
 }
 
 blockquote[xml|lang="gr"] > p:nth-child(3){
-    text-indent: 5em;
+	text-indent: 5em;
 }
 
 blockquote.names p{
-    text-indent: 1em;
+	text-indent: 1em;
 	text-transform: lowercase;
 }
 
 /* location-specific CSS */
 #chapter-3 blockquote > header{
-    font-style: italic;
-    margin-bottom: .5em;
+	font-style: italic;
+	margin-bottom: .5em;
 }
 
 #image-2.full-page{
@@ -94,7 +89,16 @@ section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-/* dedication */
+
+/* custom dedication CSS */
+[epub|type~="dedication"] p{
+	text-indent: 0;
+}
+
+[epub|type~="dedication"] p:nth-child(2){
+	text-transform: uppercase;
+}
+/* end of dedication */
 
 /* figures */
 figure img{
@@ -114,11 +118,11 @@ figcaption{
 }
 
 figcaption p{
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 figcaption table{
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 figure.full-page{
@@ -189,11 +193,11 @@ p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
 }
-/* end verse */
+/* end song/verse */
 
 /* temporary for proofreading */
 blockquote{
-    font-size: 93%;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+	font-size: 93%;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 }

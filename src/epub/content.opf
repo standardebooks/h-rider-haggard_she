@@ -67,8 +67,8 @@
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/She</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_she</meta>
 		<dc:creator id="author">H. Rider Haggard</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
+		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
+		<meta property="se:name.person.full-name" refines="#author">Henry Rider Haggard</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Rider_Haggard</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80010495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -105,7 +105,7 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
-		<item href="fonts/StandardBlackletter.otf" id="StandardBlackletter.otf" media-type="application/vnd.ms-opentype"/>
+		<item href="fonts/standard-blackletter.otf" id="standard-blackletter.otf" media-type="application/vnd.ms-opentype"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/image-1.svg" id="image-1.svg" media-type="image/svg+xml"/>
 		<item href="images/image-2.png" id="image-2.png" media-type="image/png"/>
