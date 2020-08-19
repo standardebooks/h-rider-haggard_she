@@ -54,14 +54,15 @@
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2010118682</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">Three men travel to Africa and encounter a 2000-year old woman.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;A professor is entreated by a dying colleague to take custody of the colleague’s five-year old son, raise him to adulthood, and at that time pass on a chest to him. The professor does so, and when the child reaches adulthood and the chest is revealed, it leads them on an adventure to Africa. There they encounter a young queen of a lost race who says she’s over two thousand years old, with an equally startling claim about the young man.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/h-rider-haggard"&gt;H. Rider Haggard&lt;/a&gt; invented the “lost world” genre of fiction with &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/h-rider-haggard/king-solomons-mines"&gt;King Solomon’s Mines&lt;/a&gt;&lt;/i&gt;, and he continued the theme, adding in a bit of romance, in &lt;i&gt;She&lt;/i&gt;. Haggard wrote the book in six months “in a white heat,” and handed the manuscript to his agent with the remark, “There is what I shall be remembered by.” Haggard was right: with its setting in darkest Africa and a woman at its center described as the most beautiful in the world, &lt;i&gt;She&lt;/i&gt; was a sensation at its release, has never been out of print, and has sold upwards of 100 million copies.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3155</dc:source>
 		<dc:source>https://archive.org/details/shehistoryofadve1887hagg</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">All references to the titular character are italicized in the original and were left as unsemanticated italics in this production. The blackletter sections often substitute v for u and vice-versa; the transcription had to be adjusted accordingly.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/She</meta>
