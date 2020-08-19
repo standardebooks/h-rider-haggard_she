@@ -56,13 +56,9 @@ blockquote.names p{
 	margin-bottom: .5em;
 }
 
+/* caption won't fit on page without slightly reducing picture */
 #image-2.full-page{
-	margin: 0;
 	max-width: 95%;
-	break-before: page;
-	break-after: page;
-	break-inside: avoid-page;
-	text-align: center;
 }
 /* end location-specific */
 
