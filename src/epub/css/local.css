@@ -88,10 +88,12 @@ section[epub|type~="dedication"] > *{
 
 /* custom dedication CSS */
 [epub|type~="dedication"] p{
+	font-variant: all-small-caps;
+	text-align: center;
 	text-indent: 0;
 }
 
-[epub|type~="dedication"] p:nth-child(2){
+[epub|type~="dedication"] b{
 	text-transform: uppercase;
 }
 /* end of dedication */
@@ -190,10 +192,3 @@ p span.i1{
 	padding-left: 2em;
 }
 /* end song/verse */
-
-/* temporary for proofreading */
-blockquote{
-	font-size: 93%;
-	margin-left: 1.5em;
-	margin-right: 1.5em;
-}
