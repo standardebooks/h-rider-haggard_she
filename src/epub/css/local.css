@@ -36,7 +36,7 @@ abbr.era{
 	vertical-align: 20%;
 }
 
-.capgreek{
+.uncial{
 	word-break: break-all;
 	text-align: justify;
 }
@@ -45,9 +45,10 @@ blockquote[xml|lang="gr"] > p:nth-child(3){
 	text-indent: 5em;
 }
 
-blockquote.names p{
-	text-indent: 1em;
+blockquote ul{
 	text-transform: lowercase;
+	list-style: none;
+	padding: 0;
 }
 
 /* location-specific CSS */
@@ -88,7 +89,7 @@ section[epub|type~="dedication"] > *{
 
 /* custom dedication CSS */
 [epub|type~="dedication"] p{
-	font-variant: all-small-caps;
+	font-variant: small-caps;
 	text-align: center;
 	text-indent: 0;
 }
