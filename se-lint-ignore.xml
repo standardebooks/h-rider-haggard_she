@@ -14,4 +14,9 @@
 			<reason>Added hair-space before [semi-]colons to match source appearance.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-26.xhtml">
+		<ignore>
+			<code>t-017</code>
+			<reason>Matched text is a complete clause.</reason>
+		</ignore>
 </se-lint-ignore>
