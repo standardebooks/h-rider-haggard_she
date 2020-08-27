@@ -19,4 +19,5 @@
 			<code>t-017</code>
 			<reason>Matched text is a complete clause.</reason>
 		</ignore>
+	</file>
 </se-lint-ignore>
