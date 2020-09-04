@@ -8,11 +8,6 @@
 	src: url("../fonts/standard-blackletter.otf") format("opentype");
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 abbr.era{
 	font-variant: all-small-caps;
 }
