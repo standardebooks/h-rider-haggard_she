@@ -101,11 +101,6 @@ figure img{
 	max-width: 100%;
 }
 
-figcaption p,
-figure + p{
-	text-indent: 0;
-}
-
 figcaption{
 	font-size: .75em;
 	font-style: italic;
@@ -113,6 +108,7 @@ figcaption{
 }
 
 figcaption p{
+	text-indent: 0;
 	text-transform: uppercase;
 }
 
