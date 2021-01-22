@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/h-rider-haggard/she/maurice-greiffenhagen_charles-h-m-kerr</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/h-rider-haggard/she</dc:identifier>
 		<dc:date>2020-08-21T21:16:53Z</dc:date>
 		<meta property="dcterms:modified">2020-08-21T21:16:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -66,7 +66,7 @@
 		<meta property="se:word-count">110601</meta>
 		<meta property="se:reading-ease.flesch">71.89</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/She</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_she_maurice-greiffenhagen_charles-h-m-kerr</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_she</meta>
 		<dc:creator id="author">H. Rider Haggard</dc:creator>
 		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
 		<meta property="se:name.person.full-name" refines="#author">Henry Rider Haggard</meta>
@@ -79,14 +79,14 @@
 		<meta property="file-as" refines="#illustrator-1">Greiffenhagen, Maurice</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-1">https://en.wikipedia.org/wiki/Maurice_Greiffenhagen</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-1">https://id.loc.gov/authorities/names/n77018492</meta>
-		<meta property="display-seq" refines="#illustrator-1">1</meta>
+		<meta property="display-seq" refines="#illustrator-1">0</meta>
 		<meta property="role" refines="#illustrator-1" scheme="marc:relators">ill</meta>
 		<dc:contributor id="illustrator-2">Charles H. M. Kerr</dc:contributor>
 		<meta property="se:name.person.full-name" refines="#illustrator-2">Charles Henry Malcom Kerr</meta>
 		<meta property="file-as" refines="#illustrator-2">Kerr, Charles H. M.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-2">https://en.wikipedia.org/wiki/Charles_H._M._Kerr</meta>
 		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">https://id.loc.gov/authorities/names/n77018489</meta>
-		<meta property="display-seq" refines="#illustrator-2">2</meta>
+		<meta property="display-seq" refines="#illustrator-2">0</meta>
 		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">John Robert Cozens</dc:contributor>
 		<meta property="file-as" refines="#artist">Cozens, John Robert</meta>
