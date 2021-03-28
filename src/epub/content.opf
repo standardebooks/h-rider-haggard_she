@@ -71,27 +71,27 @@
 		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
 		<meta property="se:name.person.full-name" refines="#author">Henry Rider Haggard</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Rider_Haggard</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n80010495</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80010495</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">aui</meta>
 		<dc:contributor id="illustrator-1">Maurice Greiffenhagen</dc:contributor>
 		<meta property="file-as" refines="#illustrator-1">Greiffenhagen, Maurice</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-1">https://en.wikipedia.org/wiki/Maurice_Greiffenhagen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator-1">https://id.loc.gov/authorities/names/n77018492</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-1">http://id.loc.gov/authorities/names/n77018492</meta>
 		<meta property="display-seq" refines="#illustrator-1">0</meta>
 		<meta property="role" refines="#illustrator-1" scheme="marc:relators">ill</meta>
 		<dc:contributor id="illustrator-2">Charles H. M. Kerr</dc:contributor>
 		<meta property="se:name.person.full-name" refines="#illustrator-2">Charles Henry Malcom Kerr</meta>
 		<meta property="file-as" refines="#illustrator-2">Kerr, Charles H. M.</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-2">https://en.wikipedia.org/wiki/Charles_H._M._Kerr</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">https://id.loc.gov/authorities/names/n77018489</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">http://id.loc.gov/authorities/names/n77018489</meta>
 		<meta property="display-seq" refines="#illustrator-2">0</meta>
 		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">John Robert Cozens</dc:contributor>
 		<meta property="file-as" refines="#artist">Cozens, John Robert</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Robert_Cozens</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n80153730</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80153730</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Bickers</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bickers, John</meta>
