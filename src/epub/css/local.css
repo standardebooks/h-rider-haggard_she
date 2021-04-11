@@ -16,14 +16,12 @@ abbr.era{
 	font-family: "Standard Blackletter", serif;
 	font-variant: normal;
 	font-size: 1.5em;
-	font-weight: 700;
-	line-height: .95em;
+	line-height: .95;
 }
 
 .blackletter > p:first-of-type::first-letter{
 	float: left;
 	font-size: 2.4em;
-	line-height: .7em;
 }
 
 /* elevated letters shouldn't be raised as much as superscripts */
@@ -121,19 +119,18 @@ figure.full-page{
 	break-before: page;
 	break-inside: avoid;
 	margin: 0;
-	max-height: 100%;
+	max-height: 100vh;
 	text-align: center;
 }
 
-@supports(display: flex) and (max-height: 100vh){
+@supports(display: flex){
 	figure.full-page{
 		display: flex;
 		flex-direction: column;
-		max-height: 100vh;
 	}
 
 	figure.full-page img{
-		height: 100%;
+		height: 100vh;
 	}
 }
 /* end figures */
