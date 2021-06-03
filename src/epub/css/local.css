@@ -34,7 +34,7 @@ abbr.era{
 	text-align: justify;
 }
 
-blockquote[xml|lang="gr"] > p:nth-child(3){
+blockquote[xml|lang="el"] > p:nth-child(3){
 	text-indent: 5em;
 }
 
