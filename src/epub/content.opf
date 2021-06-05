@@ -30,6 +30,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">She</dc:title>
 		<meta property="file-as" refines="#title">She</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A History of Adventure</dc:title>
+		<meta property="file-as" refines="#subtitle">History of Adventure, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">She: A History of Adventure</dc:title>
+		<meta property="file-as" refines="#fulltitle">She</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Africa -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Love stories</dc:subject>
