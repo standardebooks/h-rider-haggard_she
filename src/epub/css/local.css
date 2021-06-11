@@ -8,7 +8,7 @@
 	src: url("../fonts/standard-blackletter.otf") format("opentype");
 }
 
-abbr.era{
+[epub|type~="se:era"]{
 	font-variant: all-small-caps;
 }
 
