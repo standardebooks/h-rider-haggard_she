@@ -189,3 +189,7 @@ p span.i1{
 	text-indent: -1em;
 }
 /* end song/verse */
+
+#chapter-3 blockquote[epub|type~="z3998:verse"]{
+	font-variant: small-caps;
+}
