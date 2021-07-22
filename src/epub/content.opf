@@ -135,8 +135,8 @@
 		<item href="fonts/standard-blackletter.otf" id="standard-blackletter.otf" media-type="application/vnd.ms-opentype"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/image-1.svg" id="image-1.svg" media-type="image/svg+xml"/>
-		<item href="images/image-2.png" id="image-2.png" media-type="image/png"/>
-		<item href="images/image-3.png" id="image-3.png" media-type="image/png"/>
+		<item href="images/image-2.jpg" id="image-2.jpg" media-type="image/jpeg"/>
+		<item href="images/image-3.jpg" id="image-3.jpg" media-type="image/jpeg"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
