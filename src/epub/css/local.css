@@ -14,8 +14,8 @@
 
 .blackletter > p{
 	font-family: "Standard Blackletter", serif;
-	font-variant: normal;
 	font-size: 1.5em;
+	font-variant: normal;
 	line-height: .95;
 }
 
@@ -30,8 +30,8 @@
 }
 
 .uncial{
-	word-break: break-all;
 	text-align: justify;
+	word-break: break-all;
 }
 
 blockquote[xml|lang="el"] > p:nth-child(3){
@@ -39,9 +39,9 @@ blockquote[xml|lang="el"] > p:nth-child(3){
 }
 
 blockquote ul{
-	text-transform: lowercase;
 	list-style: none;
 	padding: 0;
+	text-transform: lowercase;
 }
 
 /* location-specific CSS */
@@ -157,8 +157,8 @@ footer{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: initial;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:signature"]{
