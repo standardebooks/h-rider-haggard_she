@@ -14,14 +14,13 @@
 
 .blackletter > p{
 	font-family: "Standard Blackletter", serif;
-	font-size: 1.5em;
-	font-variant: normal;
+	font-size: larger;
 	line-height: .95;
 }
 
 .blackletter > p:first-of-type::first-letter{
 	float: left;
-	font-size: 2.4em;
+	font-size: 2.5em;
 }
 
 /* elevated letters shouldn't be raised as much as superscripts */
