@@ -62,6 +62,9 @@
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2010118682</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Ayesha</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
 		<dc:description id="description">Three men travel to Africa and encounter a 2000-year old woman.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;A professor is entreated by a dying colleague to take custody of the colleague’s five-year old son, raise him to adulthood, and at that time pass on a chest to him. The professor does so, and when the child reaches adulthood and the chest is revealed, it leads them on an adventure to Africa. There they encounter a young queen of a lost race who says she’s over two thousand years old, with an equally startling claim about the young man.&lt;/p&gt;
