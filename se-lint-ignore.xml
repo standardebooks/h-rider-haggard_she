@@ -10,12 +10,12 @@
 			<reason>Greek section formatted to match the source.</reason>
 		</ignore>
 		<ignore>
-			<code>t-073</code>
-			<reason>Greek section formatted to match the source.</reason>
-		</ignore>
-		<ignore>
 			<code>t-041</code>
 			<reason>Added hair-space before [semi-]colons to match source appearance.</reason>
+		</ignore>
+		<ignore>
+			<code>t-073</code>
+			<reason>Greek section formatted to match the source.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-26.xhtml">
