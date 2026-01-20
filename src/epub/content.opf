@@ -74,7 +74,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/3155</dc:source>
 		<dc:source>https://archive.org/details/shehistoryofadve1887hagg</dc:source>
 		<meta property="se:production-notes">All references to the titular character are italicized in the original and were left as unsemanticated italics in this production. The blackletter sections often substitute v for u and vice-versa; this was common in older Latin spelling and the transcription had to be adjusted accordingly; the print edition listed both illustrators so both are included in the metadata.</meta>
-		<meta property="se:word-count">110601</meta>
+		<meta property="se:word-count">110191</meta>
 		<meta property="se:reading-ease.flesch">71.99</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/She:_A_History_of_Adventure</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_she</meta>
