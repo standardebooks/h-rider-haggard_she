@@ -1,26 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-3.xhtml">
-		<ignore>
-			<code>s-026</code>
+		<ignore code="s-026">
 			<reason>Source uses U for V in blackletter date (interchangeable in Latin).</reason>
 		</ignore>
-		<ignore>
-			<code>t-029</code>
+		<ignore code="t-029">
 			<reason>Greek section formatted to match the source.</reason>
 		</ignore>
-		<ignore>
-			<code>t-041</code>
+		<ignore code="t-041">
 			<reason>Added hair-space before [semi-]colons to match source appearance.</reason>
 		</ignore>
-		<ignore>
-			<code>t-073</code>
+		<ignore code="t-073">
 			<reason>Greek section formatted to match the source.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-26.xhtml">
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Matched text is a complete clause.</reason>
 		</ignore>
 	</file>
