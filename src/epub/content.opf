@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/h-rider-haggard/she</dc:identifier>
 		<dc:date>2020-08-21T21:16:53Z</dc:date>
 		<meta property="dcterms:modified">2020-08-21T21:16:53Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -61,7 +62,7 @@
 		<meta property="term" refines="#subject-7">sh2008110654</meta>
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2010118682</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<meta id="collection-1" property="belongs-to-collection">Ayesha</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
@@ -73,35 +74,36 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3155</dc:source>
 		<dc:source>https://archive.org/details/shehistoryofadve1887hagg</dc:source>
-		<meta property="se:production-notes">All references to the titular character are italicized in the original and were left as unsemanticated italics in this production. The blackletter sections often substitute v for u and vice-versa; this was common in older Latin spelling and the transcription had to be adjusted accordingly; the print edition listed both illustrators so both are included in the metadata.</meta>
-		<meta property="se:word-count">110191</meta>
-		<meta property="se:reading-ease.flesch">71.99</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/She:_A_History_of_Adventure</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-rider-haggard_she</meta>
+		<meta property="schema:wordCount">110191</meta>
+		<meta property="schema:educationalLevel">71.99</meta>
+		<link href="https://en.wikipedia.org/wiki/She:_A_History_of_Adventure" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/h-rider-haggard_she" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">H. Rider Haggard</dc:creator>
 		<meta property="file-as" refines="#author">Haggard, H. Rider</meta>
-		<meta property="se:name.person.full-name" refines="#author">Henry Rider Haggard</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/H._Rider_Haggard</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80010495</meta>
+		<meta property="schema:alternateName" refines="#author">Henry Rider Haggard</meta>
+		<link href="https://en.wikipedia.org/wiki/H._Rider_Haggard" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80010495.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<dc:contributor id="illustrator-1">Maurice Greiffenhagen</dc:contributor>
 		<meta property="file-as" refines="#illustrator-1">Greiffenhagen, Maurice</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-1">https://en.wikipedia.org/wiki/Maurice_Greiffenhagen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator-1">http://id.loc.gov/authorities/names/n77018492</meta>
+		<link href="https://en.wikipedia.org/wiki/Maurice_Greiffenhagen" refines="#illustrator-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n77018492.html" refines="#illustrator-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator-1" scheme="marc:relators">ill</meta>
 		<dc:contributor id="illustrator-2">Charles H. M. Kerr</dc:contributor>
-		<meta property="se:name.person.full-name" refines="#illustrator-2">Charles Henry Malcom Kerr</meta>
+		<meta property="schema:alternateName" refines="#illustrator-2">Charles Henry Malcom Kerr</meta>
 		<meta property="file-as" refines="#illustrator-2">Kerr, Charles H. M.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator-2">https://en.wikipedia.org/wiki/Charles_H._M._Kerr</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator-2">http://id.loc.gov/authorities/names/n77018489</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_H._M._Kerr" refines="#illustrator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n77018489.html" refines="#illustrator-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator-2" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">John Robert Cozens</dc:contributor>
 		<meta property="file-as" refines="#artist">Cozens, John Robert</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Robert_Cozens</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n80153730</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Robert_Cozens" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80153730.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Bickers</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Bickers, John</meta>
@@ -114,11 +116,11 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-4">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-4" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Vince Rice</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Rice, Vince</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://brokenandsaved.com/</meta>
+		<link href="https://brokenandsaved.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -128,7 +130,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>

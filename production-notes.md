@@ -1,0 +1,1 @@
+All references to the titular character are italicized in the original and were left as unsemanticated italics in this production. The blackletter sections often substitute v for u and vice-versa; this was common in older Latin spelling and the transcription had to be adjusted accordingly; the print edition listed both illustrators so both are included in the metadata.
