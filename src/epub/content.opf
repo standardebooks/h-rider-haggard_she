@@ -38,14 +38,14 @@
 		<dc:title id="fulltitle">She: A History of Adventure</dc:title>
 		<meta property="file-as" refines="#fulltitle">She</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Africa -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Africa--Fiction</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Love stories</dc:subject>
 		<dc:subject id="subject-4">Adventure stories</dc:subject>
-		<dc:subject id="subject-5">Ayesha (Fictitious character : Haggard) -- Fiction</dc:subject>
-		<dc:subject id="subject-6">Immortalism -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Reincarnation -- Fiction</dc:subject>
-		<dc:subject id="subject-8">Women -- Africa -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Ayesha (Fictitious character : Haggard)--Fiction</dc:subject>
+		<dc:subject id="subject-6">Immortalism--Fiction</dc:subject>
+		<dc:subject id="subject-7">Reincarnation--Fiction</dc:subject>
+		<dc:subject id="subject-8">Women--Africa--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2007101346</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
